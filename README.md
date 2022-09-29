@@ -5,7 +5,7 @@ between two systems, with and without ssh tunneling
 ## Preparation: simple connection test
 To check if a TCP connection exists, run
 ```
-netcat -l 9999
+netcat -l -p 9999
 ```
 on the receiver (to make sure the port is not in use yet) and
 ```
